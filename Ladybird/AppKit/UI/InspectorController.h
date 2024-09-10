@@ -7,11 +7,13 @@
 #pragma once
 
 #import <Cocoa/Cocoa.h>
+#import <UI/Inspector.h>
 
 @class Tab;
 
 @interface InspectorController : NSWindowController
 
-- (instancetype)init:(Tab*)tab;
+- (instancetype)init:(Tab*)tab
+           inspector:(Inspector*)inspector;
 
 @end
