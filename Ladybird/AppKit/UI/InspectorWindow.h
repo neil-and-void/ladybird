@@ -15,8 +15,7 @@
 
 @interface InspectorWindow : NSWindow
 
-- (instancetype)init:(Tab*)tab
-           inspector:(Inspector*)inspector;
+- (instancetype)init:(Tab*)tab;
 
 @property (nonatomic, strong) LadybirdWebView* web_view;
 
